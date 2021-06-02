@@ -15,7 +15,11 @@ module.exports = {
       yellow: colors.amber,
       hulu: '#06202A'
     },
-    extend: {},
+    extend: {
+      screens: {
+        "3xl": "2000px",
+      }
+    },
   },
   variants: {
     extend: {
