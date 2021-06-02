@@ -20,7 +20,10 @@ module.exports = {
   variants: {
     extend: {
       animation: ['hover', 'focus', 'group-hover'],
-      textColor: ['active']
+      textColor: ['active'],
+      transitionProperty: ['hover', 'focus', 'group-hover'],
+      transitionDuration: ['hover', 'group-hover'],
+      fontWeight: ['group-hover'],
     },
     padding: ['responsive', 'hover', 'last'],
   },
