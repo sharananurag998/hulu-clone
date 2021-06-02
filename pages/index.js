@@ -5,7 +5,7 @@ import Nav from '../components/Nav';
 import Results from '../components/Results';
 import requests from '../utils/requests';
 
-export default function Home({results}) {
+export default function Home({results, genre}) {
   return (
     <div className="text-gray-300">
       <Head>
@@ -14,7 +14,7 @@ export default function Home({results}) {
       </Head>
 
       <Header />
-      <Nav />
+      <Nav genre={genre}/>
       <Results results={results}/>
     </div>
   )
@@ -27,7 +27,8 @@ export async function getServerSideProps(context) {
     .then(res=>res.json());
   return {
     props: {
-      results: request.results
+      results: request.results,
+      genre: genre?genre:null
     }
   }
 }
