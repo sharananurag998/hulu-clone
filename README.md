@@ -1,3 +1,13 @@
+# Hulu Clone
+
+### By Anurag Sharan
+
+This is a clone of the Hulu frontend. I have made this using Next JS which is a SSR framework for React. I have also used Tailwind CSS which provides lots of utility classes for CSS.
+
+I made this project to learn Next JS and Tailwind CSS so if you find any errors or improvements, feel free to raise an issue or send a pull request. I will definitely merge it after reviewing it. 
+
+Thank you for checking out my project, you can find the steps to start and build the app in the following text.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
